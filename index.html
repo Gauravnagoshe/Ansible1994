@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f5f5f5;
+        }
+
+        header{
+            background:#0d6efd;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav{
+            background:#222;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 20px;
+            font-size:18px;
+        }
+
+        nav a:hover{
+            color:yellow;
+        }
+
+        .hero{
+            background:linear-gradient(45deg,#0d6efd,#00bfff);
+            color:white;
+            text-align:center;
+            padding:100px 20px;
+        }
+
+        .hero h1{
+            font-size:50px;
+        }
+
+        .hero p{
+            margin-top:15px;
+            font-size:20px;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:25px;
+            padding:12px 25px;
+            background:white;
+            color:#0d6efd;
+            text-decoration:none;
+            border-radius:5px;
+            font-weight:bold;
+        }
+
+        section{
+            padding:60px 10%;
+        }
+
+        .cards{
+            display:flex;
+            gap:20px;
+            flex-wrap:wrap;
+            justify-content:center;
+        }
+
+        .card{
+            background:white;
+            width:300px;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.2);
+            text-align:center;
+        }
+
+        .card h3{
+            margin-bottom:10px;
+            color:#0d6efd;
+        }
+
+        footer{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Website</h1>
+    <p>Welcome to My HTML Website</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="hero">
+    <h1>Learn HTML & CSS</h1>
+    <p>Create Beautiful Websites Easily</p>
+    <a href="#" class="btn">Get Started</a>
+</div>
+
+<section>
+    <h2 style="text-align:center;margin-bottom:30px;">Our Services</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Web Design</h3>
+            <p>Responsive and modern website design.</p>
+        </div>
+
+        <div class="card">
+            <h3>Development</h3>
+            <p>Professional HTML, CSS and JavaScript websites.</p>
+        </div>
+
+        <div class="card">
+            <h3>Cloud</h3>
+            <p>AWS, Docker, Kubernetes & DevOps Solutions.</p>
+        </div>
+
+    </div>
+</section>
+
+<section style="background:white;">
+    <h2>About Us</h2>
+    <br>
+    <p>
+        We create responsive websites using HTML, CSS and JavaScript.
+        We also provide DevOps solutions using AWS, Docker, Kubernetes,
+        Jenkins, Terraform and GitHub.
+    </p>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <br>
+    <p>Email: info@example.com</p>
+    <p>Phone: +91 9876543210</p>
+</section>
+
+<footer>
+    <p>© 2026 My Website | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
